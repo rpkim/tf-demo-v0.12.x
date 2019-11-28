@@ -11,7 +11,6 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name  = local.tag_name
-    Owner = "SRED"
   }
 }
 
